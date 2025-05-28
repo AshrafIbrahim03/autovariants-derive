@@ -8,7 +8,7 @@ keywords = ["enum", "variants", "derive", "macro"]
 categories = ["development-tools", "rust-patterns"]
 description = "A macro that exposes a function that returns all enum variants."
 readme = "README.md"
-repository = ""
+repository = "https://github.com/AshrafIbrahim03/autovariants-derive.git"
 
 [lib]
 proc-macro = true
