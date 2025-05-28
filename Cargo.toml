@@ -1,0 +1,19 @@
+[package]
+name = "autovariants-derive"
+version = "0.1.0"
+edition = "2024"
+authors = ["AshrafIbrahim03"]
+license-file = "LICENSE.md"
+keywords = ["enum", "variants", "derive", "macro"]
+categories = ["development-tools", "rust-patterns"]
+description = "A macro that exposes a function that returns all enum variants."
+readme = "README.md"
+repository = ""
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0.95"
+quote = "1.0.40"
+syn = "2.0.101"
